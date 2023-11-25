@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add_new.AddNewWorkFragment"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etAddWorkAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/address"
+        android:minHeight="48dp"
+        android:autofillHints="postalAddress"
+        android:inputType="textPostalAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etAddWorkDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/date"
+        android:autofillHints="date"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddWorkAddress" />
+
+    <EditText
+        android:id="@+id/etAddWorkName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:hint="@string/work_name"
+        android:autofillHints="name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddWorkDate" />
+
+    <EditText
+        android:id="@+id/etAddWorkDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="48dp"
+        android:hint="@string/description"
+        android:autofillHints="description"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddWorkName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddWorkDescription"
+        android:id="@+id/llAddItem"
+        android:weightSum="20">
+
+            <AutoCompleteTextView
+                android:id="@+id/etAddWorkStorageItemName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:ems="10"
+                android:hint="@string/item_name"
+                android:layout_weight="8" />
+
+            <EditText
+                android:id="@+id/etAddWorkStorageItemAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:ems="10"
+                android:minHeight="48dp"
+                android:maxWidth="488dp"
+                android:inputType="number"
+                android:hint="@string/amount" />
+
+            <EditText
+                android:id="@+id/etAddWorkStorageItemUnit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:minHeight="48dp"
+                android:maxWidth="488dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/unit" />
+
+        <ImageButton
+            android:layout_weight="2"
+            android:id="@+id/btnWorkAddItem"
+            android:layout_width="0dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/item_adder"
+            android:src="@drawable/baseline_add_24" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAddMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_storage_list"
+        tools:itemCount="5"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddWork"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llAddItem" />
+
+    <Button
+        android:id="@+id/btnAddWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_work"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

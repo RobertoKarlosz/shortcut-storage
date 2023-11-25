@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_work"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.work.WorkFragment"
+        android:label="Works"
+        tools:layout="@layout/fragment_work" >
+        <action
+            android:id="@+id/action_navigation_work_to_updateWorkFragment"
+            app:destination="@id/updateWorkFragment" />
+        <action
+            android:id="@+id/action_navigation_work_to_addNewWorkFragment"
+            app:destination="@id/addNewWorkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_storage"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.storage.StorageFragment"
+        android:label="Storage"
+        tools:layout="@layout/fragment_storage" >
+        <action
+            android:id="@+id/action_navigation_storage_to_updateStorageItemFragment"
+            app:destination="@id/updateStorageItemFragment" />
+        <action
+            android:id="@+id/action_navigation_storage_to_addStorageItemFragment"
+            app:destination="@id/addStorageItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addStorageItemFragment"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.add_new.AddStorageItemFragment"
+        android:label="Nem Item"
+        tools:layout="@layout/fragment_add_storage_item" >
+    </fragment>
+    <fragment
+        android:id="@+id/updateStorageItemFragment"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.update.UpdateStorageItemFragment"
+        android:label="Update Item"
+        tools:layout="@layout/fragment_update_storage_item" >
+    </fragment>
+    <fragment
+        android:id="@+id/addNewWorkFragment"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.add_new.AddNewWorkFragment"
+        android:label="New Work"
+        tools:layout="@layout/fragment_add_new_work" >
+    </fragment>
+    <fragment
+        android:id="@+id/updateWorkFragment"
+        android:name="hu.bme.aut.android.shortcutstorage.ui.update.UpdateWorkFragment"
+        android:label="Update Work"
+        tools:layout="@layout/fragment_update_work" />
+</navigation>
