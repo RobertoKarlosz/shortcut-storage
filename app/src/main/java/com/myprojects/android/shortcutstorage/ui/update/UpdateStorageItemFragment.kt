@@ -52,7 +52,7 @@ class UpdateStorageItemFragment : Fragment() {
             if (storageitemsNames.contains(binding.etUpdateStorageItemName.text.toString())) {
                 val updateItem =
                     viewModel.items.value!![storageitemsNames.indexOf(binding.etUpdateStorageItemName.text.toString())]
-                updateItem.amount += binding.etUpdateStorageItemAmount.text.toString().toInt()
+                updateItem.amount = binding.etUpdateStorageItemAmount.text.toString().toInt()
                 viewModel.updateItem(updateItem)
             } else {
                 viewModel.updateItem(
