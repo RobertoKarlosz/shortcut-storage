@@ -1,11 +1,11 @@
-package hu.bme.aut.android.shortcutstorage.ui.work
+package com.myprojects.android.shortcutstorage.ui.work
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.myprojects.android.shortcutstorage.databinding.ItemWorkListBinding
-import hu.bme.aut.android.shortcutstorage.model.work.Work
+import com.myprojects.android.shortcutstorage.model.work.Work
 
 class WorkAdapter(
     private var workButtonClickListener: WorkButtonClickListener

@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.ui.home
+package com.myprojects.android.shortcutstorage.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,13 +8,13 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.myprojects.android.shortcutstorage.databinding.FragmentHomeBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
-import hu.bme.aut.android.shortcutstorage.model.work.Work
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkAdapter
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkAdapter.WorkButtonClickListener
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkMaterialsAdapter
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkViewModel
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.work.Work
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.ui.work.WorkAdapter
+import com.myprojects.android.shortcutstorage.ui.work.WorkAdapter.WorkButtonClickListener
+import com.myprojects.android.shortcutstorage.ui.work.WorkMaterialsAdapter
+import com.myprojects.android.shortcutstorage.ui.work.WorkViewModel
 
 class HomeFragment : Fragment() {
 

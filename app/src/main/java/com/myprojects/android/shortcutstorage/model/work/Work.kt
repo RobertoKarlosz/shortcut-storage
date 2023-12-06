@@ -1,9 +1,9 @@
-package hu.bme.aut.android.shortcutstorage.model.work
+package com.myprojects.android.shortcutstorage.model.work
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
 
 @Entity(tableName = "works_table")
 data class Work(

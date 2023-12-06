@@ -1,10 +1,10 @@
-package hu.bme.aut.android.shortcutstorage.ui.work
+package com.myprojects.android.shortcutstorage.ui.work
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.myprojects.android.shortcutstorage.databinding.ItemWorkItemListBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
 
 class WorkMaterialsAdapter(
     private var items : List<StorageItem>
