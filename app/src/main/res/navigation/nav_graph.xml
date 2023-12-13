@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.home.HomeFragment"
-        android:label="Home"
+        android:name="com.myprojects.android.shortcutstorage.ui.home.HomeFragment"
+        android:label="@string/home_label"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/navigation_work"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.work.WorkFragment"
-        android:label="Works"
+        android:name="com.myprojects.android.shortcutstorage.ui.work.WorkFragment"
+        android:label="@string/works_label"
         tools:layout="@layout/fragment_work" >
         <action
             android:id="@+id/action_navigation_work_to_updateWorkFragment"
@@ -24,8 +24,8 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_storage"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.storage.StorageFragment"
-        android:label="Storage"
+        android:name="com.myprojects.android.shortcutstorage.ui.storage.StorageFragment"
+        android:label="@string/storage_label"
         tools:layout="@layout/fragment_storage" >
         <action
             android:id="@+id/action_navigation_storage_to_updateStorageItemFragment"
@@ -36,25 +36,25 @@
     </fragment>
     <fragment
         android:id="@+id/addStorageItemFragment"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.add_new.AddStorageItemFragment"
-        android:label="Nem Item"
+        android:name="com.myprojects.android.shortcutstorage.ui.add_new.AddStorageItemFragment"
+        android:label="@string/nem_item_label"
         tools:layout="@layout/fragment_add_storage_item" >
     </fragment>
     <fragment
         android:id="@+id/updateStorageItemFragment"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.update.UpdateStorageItemFragment"
-        android:label="Update Item"
+        android:name="com.myprojects.android.shortcutstorage.ui.update.UpdateStorageItemFragment"
+        android:label="@string/update_item_label"
         tools:layout="@layout/fragment_update_storage_item" >
     </fragment>
     <fragment
         android:id="@+id/addNewWorkFragment"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.add_new.AddNewWorkFragment"
-        android:label="New Work"
+        android:name="com.myprojects.android.shortcutstorage.ui.add_new.AddNewWorkFragment"
+        android:label="@string/new_work_label"
         tools:layout="@layout/fragment_add_new_work" >
     </fragment>
     <fragment
         android:id="@+id/updateWorkFragment"
-        android:name="hu.bme.aut.android.shortcutstorage.ui.update.UpdateWorkFragment"
-        android:label="Update Work"
+        android:name="com.myprojects.android.shortcutstorage.ui.update.UpdateWorkFragment"
+        android:label="@string/update_work_label"
         tools:layout="@layout/fragment_update_work" />
 </navigation>

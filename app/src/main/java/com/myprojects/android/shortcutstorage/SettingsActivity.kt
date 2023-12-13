@@ -6,9 +6,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.myprojects.android.shortcutstorage.databinding.ActivitySettingsBinding
-import hu.bme.aut.android.shortcutstorage.model.Values
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkViewModel
+import com.myprojects.android.shortcutstorage.model.Values
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.ui.work.WorkViewModel
 
 class SettingsActivity : AppCompatActivity() {
 

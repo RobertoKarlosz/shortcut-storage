@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.model.work
+package com.myprojects.android.shortcutstorage.model.work
 
 import androidx.lifecycle.LiveData
 

@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.model
+package com.myprojects.android.shortcutstorage.model
 
 object Values {
     const val PREF_NAME = "AppPrefs"

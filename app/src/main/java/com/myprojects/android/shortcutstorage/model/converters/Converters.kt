@@ -1,8 +1,8 @@
-package hu.bme.aut.android.shortcutstorage.model.converters
+package com.myprojects.android.shortcutstorage.model.converters
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
 
 class Converters {
 

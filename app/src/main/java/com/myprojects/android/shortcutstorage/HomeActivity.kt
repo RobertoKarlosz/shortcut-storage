@@ -14,9 +14,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.myprojects.android.shortcutstorage.databinding.ActivityHomeBinding
-import hu.bme.aut.android.shortcutstorage.model.Values
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkViewModel
+import com.myprojects.android.shortcutstorage.model.Values
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.ui.work.WorkViewModel
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding : ActivityHomeBinding

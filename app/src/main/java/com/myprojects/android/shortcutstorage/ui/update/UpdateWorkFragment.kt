@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.ui.update
+package com.myprojects.android.shortcutstorage.ui.update
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,11 +12,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.myprojects.android.shortcutstorage.R
 import com.myprojects.android.shortcutstorage.databinding.FragmentUpdateWorkBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
-import hu.bme.aut.android.shortcutstorage.model.work.Work
-import hu.bme.aut.android.shortcutstorage.ui.add_new.NewItemAdapter
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
-import hu.bme.aut.android.shortcutstorage.ui.work.WorkViewModel
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.work.Work
+import com.myprojects.android.shortcutstorage.ui.add_new.NewItemAdapter
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.ui.work.WorkViewModel
 
 class UpdateWorkFragment : Fragment() {
 

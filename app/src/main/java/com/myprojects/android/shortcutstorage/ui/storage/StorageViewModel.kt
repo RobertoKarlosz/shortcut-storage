@@ -1,14 +1,14 @@
-package hu.bme.aut.android.shortcutstorage.ui.storage
+package com.myprojects.android.shortcutstorage.ui.storage
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import hu.bme.aut.android.shortcutstorage.model.Values
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageDao
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageDatabase
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageRepository
+import com.myprojects.android.shortcutstorage.model.Values
+import com.myprojects.android.shortcutstorage.model.storage.StorageDao
+import com.myprojects.android.shortcutstorage.model.storage.StorageDatabase
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.storage.StorageRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -1,11 +1,11 @@
-package hu.bme.aut.android.shortcutstorage.ui.add_new
+package com.myprojects.android.shortcutstorage.ui.add_new
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.myprojects.android.shortcutstorage.R
 import com.myprojects.android.shortcutstorage.databinding.ItemStorageListBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
 
 class NewItemAdapter(
     private var optionsMenuClickListener: OptionsMenuClickListener
