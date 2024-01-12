@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.ui.storage
+package com.myprojects.android.shortcutstorage.ui.storage
 
 import android.os.Bundle
 import android.view.LayoutInflater

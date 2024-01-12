@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.ui.add_new
+package com.myprojects.android.shortcutstorage.ui.add_new
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,8 +11,8 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import com.myprojects.android.shortcutstorage.R
 import com.myprojects.android.shortcutstorage.databinding.FragmentAddStorageItemBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
 
 class AddStorageItemFragment : Fragment() {
     private lateinit var binding : FragmentAddStorageItemBinding

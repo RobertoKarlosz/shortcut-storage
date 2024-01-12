@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.ui.work
+package com.myprojects.android.shortcutstorage.ui.work
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.myprojects.android.shortcutstorage.R
 import com.myprojects.android.shortcutstorage.databinding.FragmentWorkBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
 
 class WorkFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.model.storage
+package com.myprojects.android.shortcutstorage.model.storage
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

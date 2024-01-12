@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dev Raktár</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello üres fragment</string>
+    <string name="home_fragment">Kezdőlap Fragment</string>
+    <string name="storage_fragment">Raktár Fragment</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Üzenetek</string>
+    <string name="sync_header">Szinkronizálás</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="theme">Téma</string>
+    <string name="theme_chooser_button">Téma választó</string>
+    <string name="works_sort_by">Munka rendezés:</string>
+    <string name="name">Név</string>
+    <string name="address">Cím</string>
+    <string name="date">Dátum</string>
+    <string name="storage_sort_by">Raktár rendezés:</string>
+    <string name="amount">Mennyiség</string>
+    <string name="unit">Egység</string>
+    <string name="delete_data">Adatok törlése</string>
+    <string name="delete_all_works">Összes munka törlése</string>
+    <string name="delete_all_storage_items">Összes raktár elem törlése</string>
+    <string name="add_storage_item">Raktár elem hozzáadása</string>
+    <string name="add_work">Munka hozzáadása</string>
+    <string name="description">Leírás</string>
+    <string name="item_adder">Elem hozzáadó</string>
+    <string name="add">Hozzáad</string>
+    <string name="need_to_by">Még venni kell</string>
+    <string name="update">Frissítés</string>
+    <string name="item_options">Elem opciók</string>
+    <string name="done">Kész</string>
+    <string name="materials">Alapanyagok</string>
+    <string name="work_options">Munka opciók</string>
+    <string name="home">Kezdőlap</string>
+    <string name="work">Munkák</string>
+    <string name="storage">Raktár</string>
+    <string name="delete">Törlés</string>
+    <string name="settings">Beállítások</string>
+    <string name="work_name">Munka neve</string>
+    <string name="item_name">Elem neve</string>
+    <string name="home_label">Kezdőlap</string>
+    <string name="works_label">Munkák</string>
+    <string name="storage_label">Raktár</string>
+    <string name="nem_item_label">Új elem</string>
+    <string name="update_item_label">Elem frissítése</string>
+    <string name="new_work_label">Új munka</string>
+    <string name="update_work_label">Munka frissítése</string>
+</resources>

@@ -1,4 +1,4 @@
-package hu.bme.aut.android.shortcutstorage.ui.update
+package com.myprojects.android.shortcutstorage.ui.update
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,8 +10,8 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import com.myprojects.android.shortcutstorage.R
 import com.myprojects.android.shortcutstorage.databinding.FragmentUpdateStorageItemBinding
-import hu.bme.aut.android.shortcutstorage.model.storage.StorageItem
-import hu.bme.aut.android.shortcutstorage.ui.storage.StorageViewModel
+import com.myprojects.android.shortcutstorage.model.storage.StorageItem
+import com.myprojects.android.shortcutstorage.ui.storage.StorageViewModel
 
 class UpdateStorageItemFragment : Fragment() {
 
@@ -52,7 +52,7 @@ class UpdateStorageItemFragment : Fragment() {
             if (storageitemsNames.contains(binding.etUpdateStorageItemName.text.toString())) {
                 val updateItem =
                     viewModel.items.value!![storageitemsNames.indexOf(binding.etUpdateStorageItemName.text.toString())]
-                updateItem.amount += binding.etUpdateStorageItemAmount.text.toString().toInt()
+                updateItem.amount = binding.etUpdateStorageItemAmount.text.toString().toInt()
                 viewModel.updateItem(updateItem)
             } else {
                 viewModel.updateItem(

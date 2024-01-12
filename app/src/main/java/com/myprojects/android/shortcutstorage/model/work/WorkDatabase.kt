@@ -1,11 +1,11 @@
-package hu.bme.aut.android.shortcutstorage.model.work
+package com.myprojects.android.shortcutstorage.model.work
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import hu.bme.aut.android.shortcutstorage.model.converters.Converters
+import com.myprojects.android.shortcutstorage.model.converters.Converters
 
 @Database(entities = [Work::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)

@@ -1,14 +1,14 @@
-package hu.bme.aut.android.shortcutstorage.ui.work
+package com.myprojects.android.shortcutstorage.ui.work
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import hu.bme.aut.android.shortcutstorage.model.Values
-import hu.bme.aut.android.shortcutstorage.model.work.Work
-import hu.bme.aut.android.shortcutstorage.model.work.WorkDao
-import hu.bme.aut.android.shortcutstorage.model.work.WorkDatabase
-import hu.bme.aut.android.shortcutstorage.model.work.WorkRepository
+import com.myprojects.android.shortcutstorage.model.Values
+import com.myprojects.android.shortcutstorage.model.work.Work
+import com.myprojects.android.shortcutstorage.model.work.WorkDao
+import com.myprojects.android.shortcutstorage.model.work.WorkDatabase
+import com.myprojects.android.shortcutstorage.model.work.WorkRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
